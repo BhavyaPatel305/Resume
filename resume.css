@@ -1,0 +1,353 @@
+/* Properties for biggest heading h1*/
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin-bottom: 2px;
+}
+
+
+/*Properties of span*/
+
+span {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    line-height: 48px;
+}
+
+
+/*properties for left part of resume */
+
+.left {
+    float: left;
+    background-color: purple;
+    margin-left: 17%;
+    margin-right: 63%;
+}
+
+
+/*Properties of hr tag used in left part */
+
+.line1 {
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+}
+
+
+/*Properties of hr tag used in right part */
+
+.line2 {
+    border-bottom: 1px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 7%;
+    background-color: black;
+}
+
+
+/*Properties for @ symbol*/
+
+#website1::before {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    content: '\0040';
+    color: white;
+    font-weight: lighter;
+    margin-left: 1%;
+    font-size: 30px;
+    margin-right: 4%;
+    vertical-align: -3px;
+}
+
+
+/*Properties for text after @ symbol*/
+
+#website1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin-left: 7%;
+    font-size: 20px;
+}
+
+
+/*Properties for phone symbol*/
+
+#website2::before {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    content: '\1F4F1';
+    color: white;
+    font-weight: lighter;
+    margin-left: 4%;
+    font-size: 30px;
+    margin-right: 0.1%;
+    vertical-align: -3px;
+}
+
+
+/*Properties for text after phone symbol*/
+
+#website2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+
+/*Properties for internet symbol*/
+
+#website3::before {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    content: '\01F310';
+    color: white;
+    font-weight: lighter;
+    margin-left: 5.6%;
+    font-size: 25px;
+    margin-right: 2%;
+    vertical-align: -3px;
+}
+
+
+/*Properties for text after internet symbol*/
+
+#website3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin-left: 0.1%;
+    font-size: 20px;
+}
+
+
+/*Properties for chevron shape*/
+
+.chevron::before {
+    border-style: solid;
+    border-width: 1.5em 1.5em 0em 0em;
+    content: '';
+    display: inline-block;
+    height: 13.2em;
+    width: 13.2em;
+    left: 2.05em;
+    position: relative;
+    top: -500em;
+    transform: rotate(-45deg);
+    vertical-align: 250%;
+    color: white;
+}
+
+
+/*Properties for chevron shape*/
+
+.chevron.bottom:before {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+
+/*Properties of text New York City*/
+
+#website4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 2px;
+}
+
+
+/*Properties for locator*/
+
+#website5::before {
+    content: '';
+    color: white;
+}
+
+
+/*Properties for degree cap*/
+
+#website6::before {
+    content: '\01F393';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin-left: 1%;
+    font-size: 30px;
+    margin-right: 4%;
+    vertical-align: -3px;
+}
+
+
+/*Properties for text after degree cap*/
+
+#website6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin-left: 7%;
+    font-size: 20px;
+}
+
+
+/*Properties for right part of resume*/
+
+.right {
+    width: 50%;
+    float: right;
+    margin-left: -60%;
+    margin-right: 15%;
+}
+
+
+/*Properties for overall both parts of the resume*/
+
+.container {
+    border: 3px solid #fff;
+    padding: 1px;
+    display: flex;
+}
+
+
+/*Properties for name in right part of resume*/
+
+#heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #585858;
+    font-weight: lighter;
+    font-size: 100px;
+    margin-top: 5%;
+    margin-bottom: 0.1%;
+    margin-left: auto;
+}
+
+
+/*Properties for all sub headings in right part of resume*/
+
+#subHead {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: purple;
+    margin-top: 0.1%;
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+
+
+/*Properties for description of each job*/
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: grey;
+    font-size: 20px;
+    margin-top: 0%;
+    margin-bottom: 7%;
+}
+
+
+/*Properties for writing name of jobs*/
+
+#subTitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: grey;
+    margin-top: 0.1%;
+    font-size: 30px;
+    margin-bottom: 0.1%;
+}
+
+
+/*Properties for writing dates*/
+
+.date {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: grey;
+    font-size: 20px;
+    margin-top: 0%;
+    margin-bottom: 0.1%;
+}
+
+
+/*Properties for skill bars*/
+
+* {
+    box-sizing: border-box
+}
+
+
+/* Container for skill bars */
+
+.container1 {
+    width: 40%;
+    border: 2px solid purple;
+}
+
+
+/*Properties for skill bars*/
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+}
+
+
+/*Properties for html skill bar*/
+
+.html {
+    width: 90%;
+    background-color: purple;
+}
+
+
+/*Properties for css skill bar*/
+
+.css {
+    width: 80%;
+    background-color: purple;
+}
+
+
+/*Properties for javascript skill bar*/
+
+.js {
+    width: 65%;
+    background-color: purple;
+}
+
+
+/*Properties for php skill bar*/
+
+.php {
+    width: 60%;
+    background-color: purple;
+}
+
+
+/*Properties for python skill bar*/
+
+.python {
+    width: 70%;
+    background-color: purple;
+}
+
+
+/*Properties for writing names of skill in skill bar*/
+
+#bText {
+    margin-right: 48%;
+    margin-left: 46%;
+    margin-bottom: -3%;
+}
